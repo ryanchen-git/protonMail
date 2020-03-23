@@ -1,0 +1,110 @@
+#secureNotesContainer {
+  width: 65%;
+  max-width: 1000px;
+  min-width: 650px;
+  height: 550px;
+  margin: 10px auto;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+#secureNotesContainer header {
+  position: relative;
+  height: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #999;
+}
+#secureNotesContainer header .app-title {
+  font-size: 19px;
+  text-align: center;
+}
+#secureNotesContainer .copyright {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  font-size: 12px;
+}
+#secureNotesContainer .copyright a {
+  color: #008CBA;
+}
+#secureNotesContainer button {
+  color: #fff;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  border: none;
+  cursor: pointer;
+}
+#secureNotesContainer button.new {
+  position: absolute;
+  top: 10px;
+}
+#secureNotesContainer button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+#secureNotesContainer .left-nav {
+  float: left;
+  width: 30%;
+  height: 510px;
+  overflow-y: auto;
+}
+#secureNotesContainer .left-nav ul {
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid #999;
+  height: 100%;
+}
+#secureNotesContainer .left-nav ul li {
+  list-style-type: none;
+  padding: 10px;
+  border-bottom: 1px solid #999;
+  cursor: pointer;
+}
+#secureNotesContainer .right-content {
+  float: left;
+  width: 70%;
+}
+#secureNotesContainer .right-content header {
+  height: 30px
+}
+#secureNotesContainer .right-content header span {
+  display: block;
+  margin-top: 5px;
+}
+#secureNotesContainer .right-content header input {
+  width: 98%;
+  height: 24px;
+  padding: 0 5px;
+}
+#secureNotesContainer .right-content .note-content {
+  position: relative;
+  height: 390px;
+  padding: 10px;
+}
+#secureNotesContainer .right-content .note-content .loader {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  color: #999;
+  padding: 5px;
+  border: 1px solid #999;
+}
+#secureNotesContainer .right-content .note-content textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 98%;
+  height: 380px;
+  padding: 5px;
+}
+#secureNotesContainer .right-content footer {
+  position: relative;
+  height: 30px;
+  padding: 10px;
+  border-top: 1px solid #999;
+}
+#secureNotesContainer .right-content footer .save,
+#secureNotesContainer .right-content footer .edit,
+#secureNotesContainer .right-content footer .delete {
+  float: right;
+}
+#secureNotesContainer .right-content footer .save {
+  margin-right: 10px;
+}
