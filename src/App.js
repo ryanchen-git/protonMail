@@ -24,9 +24,6 @@ class SecureNotes extends React.Component {
       loadingText: ''
     };
   }
-  ryan = () => {
-
-  }
   /**
    * Wait function to be triggered after certain time
    * @method
